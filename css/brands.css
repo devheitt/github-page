@@ -293,8 +293,3 @@ button:hover,
 .button.button-wordpress:hover,
 .button.button-wordpress:focus {
   filter: brightness(90%) }
-
-.avatar {
-  max-width: 10em;
-  border-radius: 50%;
-}
