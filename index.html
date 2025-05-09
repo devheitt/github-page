@@ -1,188 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Page Information
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8" />
-    <title>Cristian Heitt | Developer</title>
+<html lang="es">
 
-    <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristian Heitt | Backend developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
 
-    <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap"
-      rel="stylesheet"
-    />
+<body class="bg-slate-900 text-white min-h-screen flex flex-col items-center justify-center p-6">
 
-    <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/skeleton-light.css" />
-    <link rel="stylesheet" href="css/prefers-color-scheme.css" />
-    <link rel="stylesheet" href="css/brands.css" />
-
-    <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon-32x32.png"/>
-
-    <style>
-      .avatar {
-        max-width: 8em;
-        border-radius: 50%;
-        border: 3px solid #aaa;
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-      <div class="row">
-        <div class="column" style="margin-top: 10%">
-          <!-- 
-
-          ## Getting Started with LittleLink
-
-          This page has been built with every pre-designed button available in LittleLink by default. You can rearrange and delete as needed.
-
-          You can add your own brand or others brands you may need in the `css/brands.css` file. 
-
-          Edit the "Your Image Here" section to add your own personal branding, like a picture of yourself or your brand logo!
-
-          Edit the "Your Name" section to change the page heading. You can use something like your name, your social handle, or your brand name.
-
-          Edit the "Short Bio" section tell users about yourself or your brand.
-
-        -->
-
-          <!-- Your Image Here -->
-          <img class="avatar" src="images/avatar.jpeg" alt="" />
-
-          <!-- Your Name -->
-          <h1>Hi! 👋 I'm Cristian Heitt</h1>
-
-          <!-- Short Bio -->
-          <p>A passionate developer from Buenos Aires!</p>
-
-          <!--
-
-          ## Breaking down <a> attributes:
-          
-          1.) class="button button-default" | The first "button" here is telling this <a> tag that it should make this element a button and applies the default styling in `css/brands.css`.
-          The second portion, button-default, is declaring the specific brand style you would like to apply. Here we're applying the "default" style and color.
-          If you want to make this button to use the brand colors for Discord, just change "button-default" to "button-discord". Brands are found in `css/brands.css`. You can always edit & add your own there.
-
-          2.) Replace the # in href="#" with the desired target URL for the button.
-
-          3.) target="_blank" | This attribute opens links in a new tab. Remove this attribute to prevent links from opening in a new tab.
-
-          4.) rel="noopener" | This attribute instructs the browser to navigate to the target resource without granting the new browsing context access to the document that opened it.
-          This is especially useful when opening untrusted links. https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/noopener
-
-          ## Breaking down the <img> attributes:
-          
-          1.) class="icon" | This class is telling the <img> tag that it should use the styling for icons found in `css/brands.css`.
-
-          2.) src="icons/[icon_name].svg" | This defines the icon you would like to display from the icons/ folder. For example, you can change this to src="icons/discord.svg" to use the Discord icon.
-          Add your own 24x24 icons to the "icons" folder to reference them. We recommend providing a SVG.
-
-          3.) alt="Example Logo" | This alt attribute helps provides alternate text for an image, this can assist users who use screen readers. 
-
-        -->
-
-          <!-- Github -->
-          <a
-            class="button button-github"
-            href="https://github.com/devheitt"
-            target="_blank"
-            rel="noopener"
-            ><img
-              class="icon"
-              src="icons/github.svg"
-              alt="GitHub Logo"
-            />GitHub</a
-          >
-          <br />
-                    
-          <!-- Youtube -->
-          <a
-            class="button button-youtube"
-            href="https://www.youtube.com/@heittdev"
-            target="_blank"
-            rel="noopener"
-            ><img
-              class="icon"
-              src="icons/youtube.svg"
-              alt="Youtube Logo"
-            />Youtube</a
-          >
-          <br />
-                    
-          <!-- Medium -->
-          <a
-            class="button button-medium"
-            href="https://medium.com/@heittdev"
-            target="_blank"
-            rel="noopener"
-            ><img
-              class="icon"
-              src="icons/medium.svg"
-              alt="Medium Logo"
-            />Medium</a
-          >
-          <br />
-
-          <!-- Twitter -->
-          <a
-            class="button button-twitter"
-            href="https://twitter.com/heittdev"
-            target="_blank"
-            rel="noopener"
-            ><img
-              class="icon"
-              src="icons/twitter.svg"
-              alt="Twitter Logo"
-            />Twitter</a
-          >
-          <br />
-
-          <!-- LinkedIn -->
-          <a
-            class="button button-linkedin"
-            href="https://www.linkedin.com/in/cristian-heitt/"
-            target="_blank"
-            rel="noopener"
-            ><img
-              class="icon"
-              src="icons/linkedin.svg"
-              alt="LinkedIn Logo"
-            />LinkedIn</a
-          >
-          <br />
-
-          <!-- Email -->
-          <a
-            class="button button-default"
-            href="mailto:contact@heitt.dev"
-            target="_blank"
-            rel="noopener"
-            ><img
-              class="icon"
-              src="icons/email.svg"
-              alt="Email Icon"
-            /></a >
-          <br />
-
-          <br />
-          <br />
-        </div>
-      </div>
+  <div class="text-center max-w-md w-full">
+    <div class="profile-image-container mb-6">
+      <img src="images/avatar.jpeg" alt="Imagen de Perfil" class="profile-image">
     </div>
 
-    <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  </body>
+    <h1 class="text-4xl font-bold mb-2">
+      ¡Hola 👋! Soy Cris
+    </h1>
+    <p class="text-lg text-slate-300 mb-8">
+      Apasionado Desarrollador Backend con experiencia en crear servicios escalables y robustos usando microservicios
+    </p>
+
+    <div class="space-y-4">
+      <a href="https://github.com/devheitt" target="_blank" rel="noopener noreferrer"
+        class="link-button bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium py-3 px-6 rounded-lg w-full flex items-center justify-center shadow-md">
+        <i class="fab fa-github fa-lg mr-3"></i> GitHub
+      </a>
+      <a href="https://www.youtube.com/@heittdev" target="_blank" rel="noopener noreferrer"
+        class="link-button bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium py-3 px-6 rounded-lg w-full flex items-center justify-center shadow-md">
+        <i class="fab fa-youtube fa-lg mr-3 text-red-600"></i> YouTube
+      </a>
+      <a href="https://medium.com/@heittdev" target="_blank" rel="noopener noreferrer"
+        class="link-button bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium py-3 px-6 rounded-lg w-full flex items-center justify-center shadow-md">
+        <i class="fab fa-medium-m fa-lg mr-3"></i> Medium
+      </a>
+      <a href="https://twitter.com/heittdev" target="_blank" rel="noopener noreferrer"
+        class="link-button bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium py-3 px-6 rounded-lg w-full flex items-center justify-center shadow-md">
+        <i class="fab fa-twitter fa-lg mr-3 text-sky-500"></i> Twitter
+      </a>
+      <a href="https://www.linkedin.com/in/cristian-heitt/" target="_blank" rel="noopener noreferrer"
+        class="link-button bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium py-3 px-6 rounded-lg w-full flex items-center justify-center shadow-md">
+        <i class="fab fa-linkedin-in fa-lg mr-3 text-blue-700"></i> LinkedIn
+      </a>
+      <a href="mailto:heittdev@gmail.com"
+        class="link-button bg-slate-100 hover:bg-slate-200 text-slate-800 font-medium py-3 px-6 rounded-lg w-full flex items-center justify-center shadow-md">
+        <i class="fas fa-envelope fa-lg mr-3"></i> Email
+      </a>
+    </div>
+
+    <footer class="mt-12 text-sm text-slate-400">
+      <p>&copy; <span id="year"></span> Heittdev. Todos los derechos reservados.</p>
+    </footer>
+  </div>
+
+  <script>
+    // Script para actualizar el año automáticamente en el pie de página
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
 </html>
