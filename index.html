@@ -1,1 +1,6 @@
-<!DOCTYPE html><script type="module">const n=navigator.language.split("-")[0];n==="en"?window.location.pathname="/en":window.location.pathname="/es";</script>
+<!DOCTYPE html><html lang="es"> <head><meta charset="UTF-8"><script>
+      // Fast client-side redirect based on browser language
+      const lang = navigator.language.split('-')[0];
+      const redirectLang = lang === 'en' ? 'en' : 'es';
+      window.location.replace('/' + redirectLang);
+    </script><noscript><meta http-equiv="refresh" content="0; url=/es"></noscript></head> <body> <p>Redirecting...</p> </body></html>
