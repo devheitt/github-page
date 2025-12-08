@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sitemap (actualizar con la URL real cuando se despliegue)
+# Sitemap: https://heitt.dev/sitemap.xml
+
